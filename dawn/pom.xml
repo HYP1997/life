@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>plateform</module>
+        <module>platform</module>
         <module>commons</module>
         <module>gateway</module>
     </modules>
