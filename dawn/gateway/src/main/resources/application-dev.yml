@@ -9,10 +9,10 @@ spring:
           enabled: true # 开启从服务在注册中心动态创建路由的功能
       routes: # 可以配置多个路由
         - id: PlatformAPI # 路由id，没有固定规则但要求唯一
-          uri: lb://plateform # lb:// 从注册中心获取地址
+          uri: lb://platform # lb:// 从注册中心获取地址
           predicates:
             # 路径相匹配的进行路由
-            - Path=/plateform/**
+            - Path=/platform/**
             #- After=2020-05-26T17:07:03.043+08:00[Asia/Shanghai]
 #监控哪些端点，nacos图形界面都可以看到
 management:
